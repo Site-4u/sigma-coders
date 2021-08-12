@@ -27,6 +27,6 @@ app.get("/hdwes", function(req, res){
 app.get("/languages", function(req, res){
     res.render(__dirname+"/views/languages.ejs", {pageName: "Languages - Sigma Coders", date: new Date().getFullYear()});
 });
-app.listen(process.env.PORT, function(){
+app.listen(process.env.PORT || 8080, function(){
     console.log("port is opened on port 3000");
 });
