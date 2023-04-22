@@ -146,9 +146,14 @@
   font-size: 2rem;
   background-color: white;
   border: none;
-  color: #e0e0e0;
-  border-bottom: 4px #e0e0e0  solid;
+  color: #cecece;
+  border-bottom: 4px #cecece  solid;
   margin: 0 2% 0 2%;
+
+}
+.info-2-title:hover {
+  color: #a8a8a8;
+  border-bottom: 4px #a8a8a8  solid;
 }
 
 .showTitleInfo2 {
